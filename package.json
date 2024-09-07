@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "backend learning project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node run index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
-    "javascript","backend","personalchai"
+    "javascript",
+    "backend",
+    "personalchai"
   ],
   "author": "Angad Sudan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
